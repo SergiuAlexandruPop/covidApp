@@ -1,0 +1,33 @@
+.form {
+  width: 100%;
+}
+
+.input {
+  background: none;
+  opacity: 0.4;
+  background-color: white;
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 100%;
+  border: none;
+  border-radius: 30px;
+  border-bottom: 1px solid grey;
+  margin: 25px 0 grey;
+
+  &::placeholder {
+    color: black;
+  }
+
+  &:focus {
+    outline: none;
+    opacity: 0.7;
+  }
+
+  &:focus ~ label {
+    background-color: white;
+    top: -14px;
+    font-size: 12px;
+    color: white;
+  }
+}
