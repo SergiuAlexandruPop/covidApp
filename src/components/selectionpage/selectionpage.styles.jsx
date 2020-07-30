@@ -4,6 +4,7 @@ import background from "../../assets/selectionPage.jpg";
 export const PageContainer = styled.div`
   background-image: url(${background});
   background-size: cover;
+  background-position: center;
 `;
 
 export const CountryCasesContainer = styled.div`
